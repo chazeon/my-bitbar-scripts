@@ -6,11 +6,26 @@ Here are my Python scripts and a library for [BitBar][bitbar-home].
 
 ## Scripts
 
-### Slurm Queue
+### 📺 Slurm Queue
 
-Requires: [`fabric`][fabfile]
+List [Slurm][slurm] queue on a HPC.
+
+<img src="/screenshots/squeue.png" width=300>
+
+#### Requires
+
+[`fabric`][fabfile]
+
+#### Edit
+
+```python
+user = "USER"
+server = "example.com"
+prefix = ""
+```
 
 [fabfile]: http://www.fabfile.org
+[slurm]: https://slurm.schedmd.com/squeue.html
 
 ### nCov-2019 Statistics in NYC
 
