@@ -43,7 +43,7 @@ pkg.append("Six")
 
 ## Scripts
 
-### 📺 Slurm Queue
+### [📺 Slurm Queue](/scripts/squeue.py)
 
 List [Slurm][slurm] queue on a HPC.
 
@@ -64,9 +64,13 @@ prefix = ""
 [fabfile]: http://www.fabfile.org
 [slurm]: https://slurm.schedmd.com/squeue.html
 
-### nCov-2019 Statistics in NYC
+### [🦠 nCov-2019 Statistics in NYC](/scripts/nCov-2019-NYC.py)
 
-### nCov-2019 Statistics in China
+### [😷 nCov-2019 Statistics in China](/scripts/nCov-2019-CHN.py)
+
+数据来源[丁香园][dxy-ncov]。
+
+[dxy-ncov]: https://ncov.dxy.cn/ncovh5/view/pneumonia
 
 [bitbar-home]: https://getbitbar.com
 [bitbar-github]: https://github.com/matryer/bitbar
