@@ -27,7 +27,7 @@ def get_cases():
         if len(tables) > 0:
             table = tables[0]
             for row in table.find_all("tr")[1:-1]:
-                yield (row.find("th").string, int(row.find("td").string))
+                yield (row.find("th").string, sum([int(td.string) for td in row.find_all("td")]))
     return dict(parse_soup())
 
 def get_news():
