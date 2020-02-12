@@ -74,7 +74,7 @@ Data from [NYCHealth-ncov].
 
 ### [😷 nCov-2019 Statistics in China](/scripts/nCov-2019-CHN.py)
 
-<img src="/screenshots/nCov-2019-CHN.png" width=250>
+<img src="/screenshots/nCov-2019-CHN.png" width=150>
 
 数据来源[丁香园][dxy-ncov]。
 
