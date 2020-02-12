@@ -66,7 +66,15 @@ prefix = ""
 
 ### [🦠 nCov-2019 Statistics in NYC](/scripts/nCov-2019-NYC.py)
 
+<img src="/screenshots/nCov-2019-NYC.png" width=450>
+
+Data from [NYCHealth-ncov].
+
+[NYCHealth-ncov]: https://www1.nyc.gov/site/doh/health/health-topics/coronavirus.page
+
 ### [😷 nCov-2019 Statistics in China](/scripts/nCov-2019-CHN.py)
+
+<img src="/screenshots/nCov-2019-CHN.png" width=250>
 
 数据来源[丁香园][dxy-ncov]。
 
